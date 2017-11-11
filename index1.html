@@ -1,0 +1,640 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<meta name="keywords" content="About Blocktribe.  Post jobs for free, CV search, resume access">
+	<meta name="description" content="Free Blockchain Jobboard - Blocktribe about us page.">
+	<meta name="viewport" content="width=device-width, height=device-height,
+                                   initial-scale=1.0, maximum-scale=1.0,
+                                   target-densityDpi=device-dpi">
+	<link rel="alternate" type="application/rss+xml" title="Jobs" href="https://blocktribe.com/rss/">
+
+	<title>About us | Blocktribe</title>
+
+	<link href="https://blocktribe.com/templates/BootstrapDND/assets/third-party/jquery-ui.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://blocktribe.com/system/ext/jquery/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet">
+
+	<link href="https://blocktribe.com/templates/BootstrapDND/assets/style/styles.css?t=1507921301" rel="stylesheet" id="styles">
+
+	<link rel="icon" href="https://blocktribe.com/templates/BootstrapDND/assets/images/Square Logo.png" type="image/x-icon" />
+	<style type="text/css">.form .form-group__complex,
+.search-results__title {
+	 display: none;
+}
+
+/*.details-header__company-profile .container {
+	 padding-right: 15px;
+}
+
+.details-header__company-profile .sidebar {
+	 float: none !important;
+	 width: 100%;
+}
+
+.details-header__company-profile .profile__img {
+	 margin-bottom: 0;
+}
+
+.details-header__company-profile h1.details-header__title {
+	font-size: 15px;
+	font-weight: normal;
+	padding: 15px 26px;
+	line-height: initial;
+	color: rgba(0, 0, 0, 0.4);
+	padding: 0;
+	margin-top: 0;
+}
+
+.details-body__company-profile .row > .listing-item__info {
+	float: left;
+	width: 100%;
+	padding-left: 15px;
+}
+
+.details-body__company-profile .details-body__left {
+	 width: 100%;
+}
+	 
+.details-header__company-profile .profile__image {
+	 text-align: left;
+}
+
+.details-header__company-profile h1.details-header__title {
+	 display: none;
+}*/
+
+/* search applicants button font smaller */
+.quick-search__wrapper [action="https://danieltestboard.mysmartjobboard.com/resumes/"] .quick-search__find {
+	 font-size: 12px;
+}
+
+/*.details-header__company-profile .profile__info__description {
+	max-height: 100%;
+}
+
+.details-header__company-profile .profile__info__description * {
+	 font-size: 15px;
+}*/
+
+.footer .home-intro-text {
+	 color: #7E7E7E;
+	 padding-bottom: 10px;
+}
+.footer .home-intro-text a {
+	 color: #9E9E9E;
+}
+.modal-body .form-group__btns {
+	     margin-bottom: 6px !important;
+}
+
+.product-item {
+height: 490px !important;
+}
+.product-item__content {
+height: 320px !important;
+}
+.product-item__description {
+height: 300px !important;
+padding-bottom: 20px;
+}
+
+.btn__yellow.btn-post-job {
+background: #FFFFFF;
+}</style>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {	
+		 /*if ($('.details-body__company-profile').length) {
+			  $('.details-header').addClass('details-header__company-profile');
+			  $('.sidebar').attr('class', 'sidebar');
+			  $('.sidebar').insertAfter('.details-header .results');
+			  $('.details-header .listing-item__info').insertBefore('.companies-jobs-list');
+		 }*/
+		 
+		if ($('.details-body__resume').length && $('.details-body__title:contains("Work Experience")')) {
+			$('.details-body__title:contains("Work Experience")').next().remove();
+				$('.details-body__title:contains("Work Experience")').remove();
+		}
+		
+			 
+	});
+</script>
+
+<script>
+		document.addEventListener('DOMContentLoaded', function() {
+$('.product-item__title:contains("Basic Package - Free")').closest('.well').find('.btn__blue').val('Get');
+		});
+</script>
+
+<script>
+				var googleApplied = false;
+				function googleApply() {
+						if ($('#apply-modal .alert-success').length > 0) {
+								if (!googleApplied) {
+										ga('send', 'event', 'User', 'apply');
+										googleApplied = true;
+								}
+						}
+				};
+
+				window.addEventListener("DOMContentLoaded", function () {
+						document.documentElement.addEventListener('DOMSubtreeModified', googleApply, false);
+						document.documentElement.addEventListener('DOMNodeInserted', googleApply, false);
+						document.documentElement.addEventListener('DOMNodeRemoved', googleApply, false);
+				}, false);
+</script>
+
+
+<script>
+	var callback = function() {
+		//$('.modal-body .link').last().parent('div').css( "display", "none" );
+	//$('.modal-body .login-help').css( "display", "none" );
+	var el = $('.modal-body .login-help:not(.replaced)');
+	   if (el.length) {
+		 el.addClass('replaced');
+		 el.html("<a class='btn btn__blue btn__bold' href='/registration/?user_group_id=JobSeeker'>Register</a>");
+	   }
+	   
+
+	};
+window.addEventListener("DOMContentLoaded", function () {
+
+	document.documentElement.addEventListener('DOMSubtreeModified', callback, false);
+	document.documentElement.addEventListener('DOMNodeInserted', callback, false);
+	document.documentElement.addEventListener('DOMNodeRemoved', callback, false);
+}, false);
+
+</script>
+
+	 
+
+
+
+
+<meta name="google-site-verification" content="ZIEYA9i4KKxFczQN1rf8INLTtpXWKuHvD8V-8GdVpps" />
+	 
+	 
+<script>
+		document.addEventListener('DOMContentLoaded', function () {
+				if ($('.form-control__google-location').val() == '') {
+						$('#radius').val('2000');
+				}
+				$('.refine-search__block .dropdown-menu')
+				var refineCallback = function () {
+						var dd = $('.refine-search__block .dropdown-menu');
+						if (dd.length == 1 && !dd.data('inited')) {
+								dd.data('inited', true);
+								dd.append(
+												'<a class="refine-search__item refine-search__item-radius" href="#" data-value="500"><span class="refine-search__value">500 miles</span></a>' +
+												'<a class="refine-search__item refine-search__item-radius" href="#" data-value="1000"><span class="refine-search__value">1000 miles</span></a>' +
+												'<a class="refine-search__item refine-search__item-radius" href="#" data-value="2000"><span class="refine-search__value">2000 miles</span></a>'
+								);
+						}
+			 /*
+						$('.modal-body .link').last()
+										.attr('target', '_blank')
+										.click(function () {
+												$('#apply-modal').modal('hide');
+										});
+			 */
+			 
+			
+				};
+				document.documentElement.addEventListener('DOMSubtreeModified', refineCallback, false);
+				document.documentElement.addEventListener('DOMNodeInserted', refineCallback, false);
+				document.documentElement.addEventListener('DOMNodeRemoved', refineCallback, false);
+		});
+</script>
+
+<!--  redirect after registration -->
+	 
+<script src="https://blocktribe.com/templates/Bootstrap/assets/third-party/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+	 
+	 
+
+var url = window.location.href;
+if (~url.indexOf("/job/")) {
+	 var clickApplyNowButton = $.cookie("clickApplyNowButton");
+
+	 if (clickApplyNowButton == 'clickit') {
+		  $(document).ready(function() {
+			  $(".details-footer__btn-apply").trigger("click");
+		  });
+		  $.removeCookie('clickApplyNowButton', { path: '/' });
+		  
+	 } else {
+		  $.cookie("jobUrl", window.location.href, { path: '/', expires: 1 });
+	 }
+}
+if (~url.indexOf("/add-listing/?listing_type_id=Resume")) {
+	 var redirecturl = $.cookie("jobUrl");
+	 if (~redirecturl.indexOf("/job/")) {
+		  $.removeCookie('jobUrl', { path: '/' });
+		  $.cookie("clickApplyNowButton", 'clickit', { path: '/', expires: 1 });
+		  window.location.href = redirecturl;
+	 }
+}
+
+</script>
+<!--  redirect after registration -->
+	 
+<script>
+	 document.addEventListener('DOMContentLoaded', function() {
+		  var appSettings = $('#application-settings').closest('.form-group');
+		  if (appSettings.length) {
+			   appSettings.hide();
+			   $.get('/edit-profile/', function(data) {
+					if ($(data).find('input[type="email"][value="aurora@coinbase.com"]').length) {
+						 appSettings.show();
+					}
+			   });
+		  }
+	     $('#application-settings').closest('.form-group').hide();
+	 });
+//$("<div class='form-group login-help text-center' style='margin-top: -54px;position: inherit;'><a class='btn btn__blue btn__bold' href='https://blocktribe.com/registration/?user_group_id=JobSeeker'>Register</a></div>").insertAfter($( ".modal-body" ));
+</script>
+
+<script>
+	(function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+		t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+	})(window, document, '_gscq','script','//widgets.getsitecontrol.com/93363/script.js');
+</script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    var callback = function() {
+      $('#apply-modal .modal-body a').last()
+        //.attr('target', '_blank')
+        .click(function() {
+           $('#apply-modal').modal('hide');
+        });
+  };
+document.documentElement.addEventListener('DOMSubtreeModified', callback, false);
+document.documentElement.addEventListener('DOMNodeInserted', callback, false);
+document.documentElement.addEventListener('DOMNodeRemoved', callback, false);
+}, false);
+</script>
+
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var url = window.location.href;
+		if (~url.indexOf("/job/")) {
+			if ( $( ".alert-bought-now" ).length ) {
+
+				$('#apply-modal').modal('toggle');
+				$('#apply-modal .modal-title').html("Share your job with your community to get more responses and we'll promote it to thousands of followers too!");
+				$('#apply-modal .modal-body').html($( ".social-share" ).clone());
+				$('#apply-modal .modal-body').css("text-align", "center");
+				$("#apply-modal .social-share__title").remove();
+				$("#apply-modal .social-share").removeClass("pull-right");
+
+//				 $( ".alert-bought-now" ).append("<br>");
+//				 $( ".social-share" ).clone().appendTo( ".alert-bought-now" );
+//				 $(".alert-bought-now .social-share__title").remove();
+//				 $(".alert-bought-now .social-share").removeClass("pull-right");
+			}
+		}
+		if (~url.indexOf("/jobs/")) {
+			if ($(".current-search").length) {
+				setTimeout( function(){ 
+					$(".create-job-alert").click();
+				}  , 10000 );
+			}
+		}
+	});
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	<div class="container container-fluid">
+		<div class="logo navbar-header">
+			<a class="logo__text navbar-brand" href="https://blocktribe.com">
+				<img src="https://blocktribe.com/templates/BootstrapDND/assets/images/Blocktribe_black_grey.jpg" alt="Blocktribe" />
+			</a>
+		</div>
+		<div class="burger-button__wrapper burger-button__wrapper__js visible-sm visible-xs"
+			 data-target="#navbar-collapse" data-toggle="collapse">
+			<div class="burger-button"></div>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<div class="visible-sm visible-xs">
+													<ul class="nav navbar-nav navbar-left">
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/jobs/"><span>Blockchain Jobs</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/companies/"><span>Blockchain Companies</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/add-listing/?listing_type_id=Job"><span>Post a Blockchain Job</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/resumes/"><span>Applicant Search</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/employer-products/"><span>Pricing</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/blog/"><span>Blog</span></a>
+                    </li>
+            <li class="navbar__item  dropdown">
+            <a class="navbar__link" href="https://blocktribe.com/faqpage"><span>FAQs</span></a>
+                            <ul class="dropdown-menu">
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/faqpage"><span>FAQ - Employers</span></a>
+                        </li>
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/faqjobseekers"><span>FAQ - Job Seekers</span></a>
+                        </li>
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/blockchain-developer-career"><span>How to get a career as a blockchain developer</span></a>
+                        </li>
+                                    </ul>
+                    </li>
+    </ul>
+
+
+				
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+									<li class="navbar__item navbar__item ">
+						<a class="navbar__link navbar__login" href="https://blocktribe.com/login/">Log in</a>
+					</li>
+					<li class="navbar__item navbar__item__filled"><a class="navbar__link  btn__blue" href="https://blocktribe.com/registration/">Sign up</a></li>
+							</ul>
+			<div class="visible-md visible-lg">
+									<ul class="nav navbar-nav navbar-left">
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/jobs/"><span>Blockchain Jobs</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/companies/"><span>Blockchain Companies</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/add-listing/?listing_type_id=Job"><span>Post a Blockchain Job</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/resumes/"><span>Applicant Search</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/employer-products/"><span>Pricing</span></a>
+                    </li>
+            <li class="navbar__item ">
+            <a class="navbar__link" href="https://blocktribe.com/blog/"><span>Blog</span></a>
+                    </li>
+            <li class="navbar__item  dropdown">
+            <a class="navbar__link" href="https://blocktribe.com/faqpage"><span>FAQs</span></a>
+                            <ul class="dropdown-menu">
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/faqpage"><span>FAQ - Employers</span></a>
+                        </li>
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/faqjobseekers"><span>FAQ - Job Seekers</span></a>
+                        </li>
+                                            <li class="navbar__item ">
+                            <a class="navbar__link" href="https://blocktribe.com/blockchain-developer-career"><span>How to get a career as a blockchain developer</span></a>
+                        </li>
+                                    </ul>
+                    </li>
+    </ul>
+
+
+				
+			</div>
+		</div>
+	</div>
+</nav>
+
+	<div id="loading"></div>
+
+	<div class="modal fade" id="message-modal" tabindex="-1" role="dialog" aria-labelledby="message-modal-label">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+					<h4 class="modal-title" id="message-modal-label">Modal title</h4>
+				</div>
+				<div class="modal-body">
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="flash-messages">
+		                
+	</div>
+
+			<div class="page-row page-row-expanded">
+                                        
+			<div class="container container--small  ">
+                				
+					<h1 class="title__primary title__primary-small title__centered title__bordered">About us</h1>
+    <div class="static-pages content-text">
+        <p>Blocktribe is a job board created for people working in blockchain, DLT, Ethereum, Hyperledger, R3, crypto currency and related distributed technologies.&nbsp;</p>
+<p>If you are interested in working in blockchain or DLT please search jobs here <a href="https://blocktribe.com/jobs/">https://blocktribe.com/jobs/</a>.</p>
+<p>If you are looking to hire blockchain talent, search blockchain resumes or post blockchain jobs then please sign up here <a href="https://blocktribe.com/registration/?user_group_id=Employer">https://blocktribe.com/registration/?user_group_id=Employer</a>.</p>
+    </div>
+
+
+
+				
+                			</div>
+		</div>
+	
+	<div class="page-row hidden-print">
+	
+    <div class="widgets__container editable-only" data-name="footer">
+            <div class="section" data-type="footer" data-name="Footer" data-settings="{&quot;text&quot;:&quot;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/\&quot;&gt;Home&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/contact\/\&quot;&gt;Contact&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/about\/\&quot;&gt;About Us &lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/terms-of-use\/\&quot;&gt;Terms &amp; Conditions&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Employer&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/add-listing\/?listing_type_id=Job\&quot;&gt;Post a Job&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/resumes\/\&quot;&gt;Search Resumes&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/login\/\&quot;&gt;Sign in&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Job Seeker&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/jobs\/\&quot;&gt;Find Jobs&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/add-listing\/?listing_type_id=Resume\&quot;&gt;Create Resume&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link\&quot; href=\&quot;$GLOBALS.site_url\/login\/\&quot;&gt;Sign in&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link footer-nav__link-social footer-nav__link-facebook\&quot; href=\&quot;\&quot;&gt;Facebook&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link footer-nav__link-social footer-nav__link-twitter\&quot; href=\&quot;#\&quot;&gt;Twitter&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link footer-nav__link-social footer-nav__link-plus\&quot; href=\&quot;#\&quot;&gt;Google Plus&lt;\/a&gt;&lt;\/li&gt;&lt;li&gt;&lt;a class=\&quot;footer-nav__link footer-nav__link-social footer-nav__link-in\&quot; href=\&quot;#\&quot;&gt;LinkedIn&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div&gt;&amp;copy; 2008-$current_year Powered by &lt;a href=\&quot;http:\/\/www.smartjobboard.com\&quot; target=\&quot;_blank\&quot; title=\&quot;Job Board Software, Script\&quot;&gt;SmartJobBoard Job Board Software&lt;\/a&gt;&lt;\/div&gt;&quot;}">
+    <footer class="footer">
+        <div class="container">
+                        <div><div><ul><li><a class="footer-nav__link" href="https://blocktribe.com/">Home</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/contact/">Contact</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/about/">About Us </a></li><li><a class="footer-nav__link" href="https://blocktribe.com/terms-of-use/">Terms & Conditions</a></li></ul></div><div><ul><li>Employer</li><li><a class="footer-nav__link" href="https://blocktribe.com/add-listing/?listing_type_id=Job">Post a Job</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/resumes/">Search Resumes</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/login/">Sign in</a></li></ul></div><div><ul><li>Job Seeker</li><li><a class="footer-nav__link" href="https://blocktribe.com/jobs/">Find Jobs</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/add-listing/?listing_type_id=Resume">Create Resume</a></li><li><a class="footer-nav__link" href="https://blocktribe.com/login/">Sign in</a></li></ul></div><div><ul><li><a class="footer-nav__link footer-nav__link-social footer-nav__link-facebook" href="">Facebook</a></li><li><a class="footer-nav__link footer-nav__link-social footer-nav__link-twitter" href="#">Twitter</a></li><li><a class="footer-nav__link footer-nav__link-social footer-nav__link-plus" href="#">Google Plus</a></li><li><a class="footer-nav__link footer-nav__link-social footer-nav__link-in" href="#">LinkedIn</a></li></ul></div></div><div>&copy; 2008-2017 Powered by <a href="http://www.smartjobboard.com" target="_blank" title="Job Board Software, Script">SmartJobBoard Job Board Software</a></div>
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+
+
+
+
+                <script>
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-75831271-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script>
+    </script>
+</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<script src="https://blocktribe.com/templates/BootstrapDND/assets/third-party/jquery-ui.min.js"></script>
+
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/templates/_system/common_js/main.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/system/ext/jquery/jquery.validate.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/templates/BootstrapDND/common_js/autoupload_functions.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/system/ext/jquery/imagesize.js"></script>
+	<link rel="Stylesheet" type="text/css" href="https://blocktribe.com/system/ext/jquery/css/jquery.multiselect.css" />
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/system/ext/jquery/multilist/jquery.multiselect.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/templates/BootstrapDND/common_js/multilist_functions.js"></script>
+	<script>
+		document.addEventListener("touchstart", function() { }, false);
+
+		var langSettings = {
+			thousands_separator : ',',
+			decimal_separator : '.',
+			decimals : '2',
+			currencySign: '£',
+			showCurrencySign: 1,
+			currencySignLocation: '0'
+		};
+	</script>
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/templates/_system/common_js/floatnumbers_functions.js"></script>
+
+	<script language="JavaScript" type="text/javascript" src="https://blocktribe.com/system/ext/jquery/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+	
+	<script language="javascript" type="text/javascript">
+
+		// Set global javascript value for page
+		window.SJB_GlobalSiteUrl = 'https://blocktribe.com';
+		window.SJB_UserSiteUrl   = 'https://blocktribe.com';
+
+	</script>
+
+	                 <script type="text/javascript">
+                    (function(e,r){function n(e,r){e[r]=function(){e.push([r].concat(Array.prototype.slice.call(arguments,0)))}}function o(){var e=r.location.hostname.match(/[a-z0-9][a-z0-9\-]+\.[a-z\.]{2,6}$/i),n=e?e[0]:null,o="; domain=."+n+"; path=/; expires=" + new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toUTCString();r.cookie=r.referrer&&-1===r.referrer.indexOf(n)?"jaco_referer="+r.referrer+o:"jaco_referer="+t+o}var a="JacoRecorder",t="none";!function(e,r,t,i){if(!t.__VERSION){e[a]=t;for(var c=["init","identify","startRecording","stopRecording","removeUserTracking","setUserInfo","trackEvent"],s=0;s<c.length;s++)n(t,c[s]);o(),t.__VERSION=2.1,t.__INIT_TIME=1*new Date;var f=r.createElement("script");f.async=!0,f.setAttribute("crossorigin","anonymous"),f.src=i;var d=r.getElementsByTagName("head")[0];d.appendChild(f)}}(e,r,e[a]||[],"https://recorder-assets.getjaco.com/recorder_v2.js")}).call(window,window,document);
+                </script>
+                <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaLoad&render=explicit"></script>
+                <script>
+                    recaptchaLoaded = false;
+                    function recaptchaLoad() {
+                        if (typeof captchaCompleted != 'undefined') {
+                            return;
+                        }
+                        recaptchaLoaded = true;
+                        $('.with-captcha').each(function() {
+                            var form = $(this);
+                            if (form.data('captcha-inited')) {
+                                return true;
+                            }
+                            form.data('captcha-inited', true);
+                            var recaptcha = $('<div class="recaptcha-container form-group"></div>');
+                            form.find('input[type="submit"]')
+                                .after(recaptcha);
+                            recaptcha.uniqueId();
+                            var id = grecaptcha.render(recaptcha.attr('id'), {
+                                'sitekey': '6LcKwyAUAAAAANWAgSImC3RWxGe4Dz0A2qeuwwl3',
+                                'size': 'invisible',
+                                'badge': 'inline',
+                                'callback': function() {
+                                    form.data('captcha-proceed', true);
+                                    if (form.hasClass('ajax-form')) {
+                                        form.ajaxSubmit();
+                                    } else {
+                                        form.submit();
+                                    }
+                                }
+                            });
+                    
+                            form.submit(function(e) {
+                                if (!$(this).data('captcha-proceed')) {
+                                    e.preventDefault();
+                                    e.stopImmediatePropagation();
+                                    grecaptcha.execute(id);
+                                    
+                                    setTimeout(function() {
+                                        if ($('iframe[src*="recaptcha/api2/bframe"]').parent().parent().css('visibility') == 'visible') {
+                                            window.JacoRecorder.init("22ab3370-206b-469f-9e99-6a8f3de63c26");
+                                            window.JacoRecorder.identify("danieltestboard.mysmartjobboard.com");
+                                        }
+                                    }, 1000);
+                                }
+                            });
+                    
+                            var handlers = $._data(this, 'events')['submit'];
+                            // take out the handler we just inserted from the end
+                            var handler = handlers.pop();
+                            // move it at the beginning
+                            handlers.splice(0, 0, handler);
+                        });
+                    }
+                    
+                    function newRecaptchaForm() {
+                        if (recaptchaLoaded) { // preventing node inserted before recaptcha load
+                            recaptchaLoad();
+                        }
+                    }
+                    document.documentElement.addEventListener('DOMNodeInserted', newRecaptchaForm, false);
+                </script> 
+    <script>
+        $(document).ready(function() {
+            $('table').each(function() {
+                $(this).wrap('<div class="table-responsive"/>')
+            });
+        });
+    </script>
+ 
+    <script>
+        $('.navbar__link').on('click', function(e) {
+            if ($(this).attr('href') == '' || $(this).attr('href') == 'http://' ||
+                    $(this).attr('href') == 'https://' || $(this).attr('href') == '#') {
+                e.preventDefault();
+            }
+        });
+
+        $('.dropdown > a').on('touchstart', function (e) {
+            var link = $(this);
+            if (link.hasClass('hover')) {
+                return true;
+            } else {
+                link.addClass('hover');
+                $('.dropdown > a').not(this).removeClass('hover');
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        $(document).on('click', function (e) {
+            var dropdown = $('.navbar__link.hover').closest('.navbar__item');
+
+            if (!dropdown.is(e.target) && dropdown.has(e.target).length === 0) {
+                dropdown.find('.navbar__link.hover').removeClass('hover');
+            }
+        });
+    </script>
+ 
+
+    
+
+	<script>
+		function message(title, content) {
+			var modal = $('#message-modal');
+			modal.find('.modal-title').html(title);
+			modal.find('.modal-body').html(content);
+			modal.modal('show');
+		}
+	</script>
+</body>
+</html>

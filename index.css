@@ -1,0 +1,51 @@
+.search{
+	text-align: center; 
+}
+
+.search input{
+	width: 30%;
+	display: inline-block;
+	padding: 5px 5px;
+    margin: 8px 11px;
+}
+
+.card {
+	width: 80%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border :1px solid #5dafb3;
+	border-radius: 5px;
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	max-width: 180px;
+	max-height: 180px;
+}
+
+.card a {
+	font-size: 18px;
+	font-weight: bold; 
+}
+
+.card i{
+	color: grey;
+}
+
+.date {
+	color: rgba(62, 62, 62, 0.3);
+	font-weight: bold;
+}
+
+.description {
+	color : rgba(0, 0, 0, 0.4);
+}
+
+.tag {
+	border-radius: 30px;
+    border: 2px solid rgba(65, 157, 212, 0.7);
+    padding: 7px 15px;
+    color: #419dd4;
+    display: inline-block;
+}
